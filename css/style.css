@@ -24,16 +24,8 @@ a:hover {
  * Base structure
  */
 
-html,
 body {
-  height: 100%;
-  background-color: #333;
-}
-body {
-  color: #fff;
-  font-family: "Open Sans",serif;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -56,7 +48,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .logo {
@@ -115,11 +107,17 @@ body {
  */
 
 .cover {
-  padding: 0 20px;
+  margin:100px;
 }
+
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
+}
+
+.lead {
+  font-style: italic;
+  font-size: 1.4em;
 }
 
 
@@ -148,9 +146,9 @@ body {
     bottom: 0;
   }
   /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
+  /*.site-wrapper-inner {*/
+    /*vertical-align: middle;*/
+  /*}*/
   /* Handle the widths */
   .masthead,
   .mastfoot,
